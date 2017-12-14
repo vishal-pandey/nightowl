@@ -1,0 +1,727 @@
+
+html, body{
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+   
+}
+section { overflow-x: hidden;}
+
+body { font-family: 'HelveticaRounded-Bold';}
+nav-link .active { color: chocolate;}
+.navbar-default {    border: 0px  !important; font-family: 'HelveticaRounded-Bold';}
+.navbar-default .navbar-nav>li>a {font-family: 'HelveticaRounded-Bold'; color: #fff;text-decoration: none; font-size: 24px;}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {font-family: 'HelveticaRounded-Bold'; color: #fff;text-decoration: none;}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {font-size: 24px; }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { background-color: transparent !important; }
+.navbar-brand, .navbar-nav > li > a:hover { color:#f1f1f1;}
+.navbar-align {padding-left: 12%;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{color:#ff8800;}
+.navbar-default .navbar-toggle .icon-bar {    background-color: #fff;}
+.navbar-default .navbar-toggle{    border-color: #fff ; margin-top: 20px;}
+h1 { font-size: 36px;}
+
+.pddn { padding-top: 55px; padding-bottom: 50px;}
+.pddn_50 { padding-top: 50px;}
+.pddn_100 { padding-top: 100px;}
+.pddn_1 { padding-top: 15px;}
+.bg-slider .bx-wrapper{ padding-top: 0px !important; }
+.bg-slider .bx-wrapper ul { margin-left: -40px !important;}
+a { color: #fff;text-decoration: none;}
+.z-index-medium {position: absolute;    z-index: 3;    margin-left: 0px;
+    margin-right: 0px;
+    left: 0;
+    right: 0;}
+.bx-wrapper .bx-viewport  ul li { z-index: -9 !important;}
+
+.header nav {float:none !important; text-align: center;}
+
+.nav-link, .label, .quote-name, .section-label, .sidebar, .share-bar p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'HelveticaRounded-Bold';
+}
+.bnr_text {text-align: center;}
+.bnr_text img , .bnr_text h3, .bnr_text h2 ,.bnr_text .nextlevel-logo { 
+color:#fff;}
+.nextlevel{ position: absolute;left: 0;
+right: 0;
+}
+
+.bnr_text .dlf-logo{  padding-top: 7%; }
+
+.bnr_text .nextlevel-logo { padding-top: 5em;}
+.main-position { position: absolute; z-index: 1;}
+
+.nightowl-logo { padding-top: 2em;}
+#text_adjust h3{ font-family: 'Open Sans Condensed',sans-serif;
+	text-align:center;
+    color:#fff;
+	letter-spacing: 2px;
+    position: absolute;
+    z-index: 2;
+    top:1%;
+    right: 1%;
+    font-size: 28px;}
+#count_text {text-align: center;}
+#count_text1 {font-size: 36px;}
+.dlf_presents_logo{ padding-top: 8em;}
+/*--------------------------About---------------------------*/
+.about-sec  {background-color: #64c6ce;}
+.about-sec h1, .about-sec p { text-align: center; color:#fff; }
+.about-sec h1 {  margin-top: 0px;}
+.align_text{ padding: 5px 200px;     font-size: 16px;font-family: 'Source Sans Pro', sans-serif;}
+
+.see-ours h1 {font-family: 'bromello'; color:#000; padding-left:3em; font-size: 60px; padding-top: 2em;    
+  -webkit-transform: rotate(-20deg);  
+}
+.see-ours .translate {position: absolute;}
+.see-ours ul { width: 55%; margin: auto; }
+.see-ours ul li { display: inline;margin: 0px -30px; }
+.see-ours ul li h2{ padding-top:4.5em; color:#fff; left:21em; position: absolute;}
+.see-ours ul li #exhibitors { left: 19em;}
+.see-ours ul li #media { left: 31em;}
+.see-ours ul li #artist { left: 40em;}
+.see-ours .displ_flex{ display: inline-flex;}
+.see-ours ul li a:hover {color: #555;}
+
+/*--------------------------/ About---------------------------*/
+/*--------------------------Gallery---------------------------*/
+
+.gallery-bg{ background-color: #f09714;}
+.gallery-bg h1,.gallery-bg p {color:#fff; text-align: center;}
+.gallery-bg .nav-tabs {padding-left: 44%;}
+.gallery-bg .tab-content{color:#fff;}
+#coming_soon { padding-top: 15%;  padding-bottom: 15%;font-family: 'Source Sans Pro', sans-serif;}
+
+
+
+.demo-gallery  .bx-viewport { height: 350px !important;}
+
+.demo-gallery .bx-wrapper .bx-prev {left: -55px;}
+.demo-gallery .bx-wrapper .bx-next {right: -55px;}
+.demo-gallery ul li { list-style: none; width: 20%;}
+.demo-gallery ul li img {border-radius: 5px;}
+.bx-wrapper .bx-controls-direction a {z-index: 2 !important;}
+
+.video_section {   width:100%; height: 315px; }
+/*--------------------------/ Gallery---------------------------*/
+
+/*--------------------------Team---------------------------*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%; 
+}
+
+.flex-item {
+   
+    margin: 10px;
+}
+
+.img__wrap {
+  position: relative;
+ height: 100%;
+    margin: 5px;
+}
+.img__img { height: auto;}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(127, 80, 11, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+     margin-top: 10em;
+
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+.img__description span { font-size: 15px;}
+.bottom_team {padding-left: 13%;}
+/*--------------------------/ Team---------------------------*/
+
+/*--------------------------Feeds---------------------------*/
+.social-section {background-color: #f1f1f1;}
+
+
+/*--------------------------/ Feeds---------------------------*/
+/*--------------------------Reach Us---------------------------*/
+.contact-section h3{ text-align: left;font-family: 'Source Sans Pro', sans-serif;    line-height: 1.4; font-size: 18px;}
+.contact-section h3 span { font-size: 15px;}
+.map_adjust {width:100%; height:450px; }
+/*--------------------------/ Reach Us---------------------------*/
+.footer { background-color: #dedede;  margin-top: 16em;}
+.footer ul li { list-style: none; display: inline;}
+.footer ul { padding: 15px 0px; margin-bottom: 0px;}
+
+/*--------------------------Exhibitors---------------------------*/
+.exhibitor-sec h1, .artist-sec h1{text-align: center; padding-top: 2%;font-family: 'Source Sans Pro', sans-serif; font-size: 40px; letter-spacing: 8px;
+color:#fff;}
+.exhibitor-sec .back_btn {padding: 8px 30px;}
+.media_gallery {background: #f09714; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(top, #f09714 , ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #f07c14, #f09714); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #f07c14, #f09714); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #f07c14 , #f09714); /* Standard syntax (must be last) */}
+.exhibitor-sec .tab-content h3, .artist-sec .tab-content h3 { color:#fff; text-align: center; padding: 20px;}
+/*-------------------------/ Exhibitors--------------------------*/
+/*--------------------------Artist---------------------------*/
+.img_crop main img{border-radius: 5px;}
+.artist-sec .tab-content h4 { color:#fff; text-align: center; padding-bottom: 20px; font-family: 'Source Sans Pro', 'sans-serif';}
+.logo_link {width:12%;margin: auto;}
+.align_image {position: relative;}
+/*--------------------------/ Artist---------------------------*/
+@font-face {
+  font-family: 'HelveticaRounded-Bold';
+  src: url('../fonts/HelveticaRounded-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaRounded-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaRounded-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/HelveticaRounded-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaRounded-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'bromello';
+  src: url('../fonts/bromello.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/bromello.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/bromello.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/bromello.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/bromello.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/bromello.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'lg';
+  src: url('../fonts/lg.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/lg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lg.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lg.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/lg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lg.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .nightowl-logo {height: 400px !important;  padding-top: 2em !important;}
+    .countdownHolder { width: 262px !important;font: 20px/1.5 'Open Sans Condensed',sans-serif; top: 10%;}
+    .navbar-default .navbar-nav > li > a {     font-size: 21px !important;}
+    .intro-section{height:100% !important;}
+    .intro-section .bx-wrapper img , .main-position{height: 100vh;}
+     .img__img {    height: 200px !important;} 
+     .img__description {    margin-top: 4em;}    
+     .img__description  h3{font-size: 21px;}
+     .gallery-bg .nav-tabs{padding-left: 38%;}
+     .navbar-align {    padding-left: 17%;}
+    .navbar-brand{height: 0px;padding: 0px;}
+     .see-ours h1 { padding-top: 0em;   padding-left: 1em;font-size: 28px;}
+     .see-ours ul {width: 100%;}
+     .see-ours ul li #exhibitors {    left: 8em;}
+     .see-ours ul li #media {left: 20em;}
+     .see-ours ul li #artist {left: 31em;}
+    .see-ours ul li h2 {    padding-top: 4.5em; font-size:24px;}
+     .exhib_png, .media_png , .artist_png { height:300px;}
+     .pddn { padding-top:45px ;}
+     .gallery-section {height: 102% !important;}
+     .for-mobile {display:none;}
+    .countdownHolder{font: 18px/1.5 'Open Sans Condensed',sans-serif;}
+    .about-section, .gallery-section{height:auto;}
+    .demo-gallery .bx-wrapper .bx-viewport ul li{ width: 266px !important;}
+    .demo-gallery .bx-viewport{    height: 275px !important;}
+    .team-section{    height: auto;}
+    #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 266px !important;}
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+      .nightowl-logo {padding-top:2em !important; height: 400px !important;}
+      .countdownHolder { width: 344px !important;font: 20px/1.5 'Open Sans Condensed',sans-serif;}
+      .navbar-default .navbar-nav > li > a {     font-size: 21px !important;}
+      .intro-section{height:97% !important;}
+       .img__img {    height: 250px !important;} 
+       .img__description {    margin-top: 7em;}
+       .navbar-align {padding-left: 21%;}
+       .see-ours h1 {    padding-left: 1em;font-size: 40px;}
+       .see-ours ul {width: 100%;}
+       .see-ours ul li #exhibitors {    left: 13em;}
+       .see-ours ul li #media {left: 25em;}
+       .see-ours ul li #artist {left: 35em;}
+      .see-ours ul li h2 {    padding-top: 5em; font-size:24px;}
+       .exhib_png, .media_png , .artist_png { height:300px;}
+       .pddn { padding-top:45px ;}
+       
+       .for-mobile {display:none;}
+       .about-section, .gallery-section , .team-section, .contact-section{    height: auto !important;}
+    .demo-gallery .bx-viewport{    height: 312px !important;}
+    #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1370px) {
+   
+    .see-ours h1 {padding-left: 2em !important;
+    font-size: 50px !important;}
+    .displ_flex .exhibitor_bg {height: 300px !important;}
+    .see-ours ul {    width: 60% !important;}
+    .see-ours ul li h2 {font-size: 25px !important; }
+    .for-mobile {display:none;}
+    
+    .countdownHolder {    font: 24px/1.5 'Open Sans Condensed',sans-serif; width: 323px !important;}
+    .navbar-default .navbar-nav > li > a, .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {     font-size: 18px !important;}
+    .navbar-align {    padding-left: 22% !important;}
+    .bnr_text .dlf-logo {    padding-top: 8% !important; }
+    .nightowl-logo {   height: 400px !important;    padding-top: 2em !important;}
+    .bnr_text h2 {font-size: 20px !important;}
+    .bnr_text h3 {margin-top: 0px !important;}
+    .bnr_text .nextlevel-logo{    padding-top: 6em !important; height: 160px !important;}
+    .intro-section {    height: 112% !important;}
+    .exhib_png, .media_png, .artist_png {height: 300px !important;}
+    .about-section {height: auto !important;}
+    .gallery-section {height: auto !important;}
+    .social-section  {height: 217% !important;}
+    .team-section {    height: auto !important;}
+    .see-ours ul {    width: 80% !important;}
+    .see-ours h1 {padding-top: 0em !important;    font-size: 40px !important;}
+    .see-ours ul li h2 {font-size: 24px !important; padding-top: 4.5em !important;}
+    .see-ours ul li #exhibitors {    left: 15em;}
+    .see-ours ul li #media {left: 27em !important;}
+    .see-ours ul li #artist {left: 37em !important;}
+    .gallery-bg .nav-tabs {    padding-left: 42% !important; }
+    .img__img {    height: 268px !important;}
+    .img__description {    margin-top: 10em !important;    font-size: 20px; }
+    .footer {    margin-top: 5em !important;}
+    .footer ul li img{ height: 35px !important;}
+    .map_adjust { height:350px !important; }
+    .pddn_100 {padding-top: 35px !important;}
+    #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
+  }
+@media screen and (min-width: 1370px) and (max-width: 1499px) {
+    .countdownHolder {    font: 24px/1.5 'Open Sans Condensed',sans-serif; width: 323px !important;}
+    .navbar-default .navbar-nav > li > a, .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {     font-size: 18px !important;}
+    .navbar-align {    padding-left: 23% !important;}
+    .bnr_text .dlf-logo {    padding-top: 8% !important; }
+    .nightowl-logo { height: 400px !important;}
+    .bnr_text h2 {font-size: 20px !important;}
+    .intro-section {    height: 94% !important;}
+    .about-section {height: 100% !important;}
+    .gallery-section {height: 100% !important;}
+    .social-section  {height: 170% !important;}
+    .see-ours ul {    width: 80% !important;}
+    .exhib_png, .media_png, .artist_png {height: 320px !important;}
+    .see-ours h1 {padding-top: 0em !important;    font-size: 40px !important;}
+    .see-ours ul li h2 {font-size: 26px !important; padding-top: 5em !important;}
+    .see-ours ul li #exhibitors {    left: 14em;}
+    .see-ours ul li #media {left: 26em !important;}
+    .see-ours ul li #artist {left: 36em !important;}
+    .gallery-bg .nav-tabs {    padding-left: 42% !important; }
+    .img__img {    height: 260px !important;}
+    .img__description {    margin-top: 10em !important;    font-size: 20px; }
+    .footer {    margin-top: 12em !important;}
+    .footer ul li img{ height: 35px !important;}
+    .map_adjust { height:350px !important; }
+    .for-mobile {display:none;}
+    #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
+}
+@media screen and (min-width: 1500px) and (max-width: 1920px) {
+    .img__img{ height: 387px !important;}
+    .video_section { height: 400px !important; }
+    .for-mobile {display:none;}
+    #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
+}
+@media screen and (min-width: 751px) and (max-width: 768px) {
+     .countdownHolder{font: 18px/1.5 'Open Sans Condensed',sans-serif;}
+     .nightowl-logo {height: 300px !important;
+        padding-top: 2em !important;
+        top: 0px;
+        position: relative;}
+    .dlf_presents_logo{ padding-top: 10em;}
+    .intro-section .bx-wrapper .bx-viewport ul li img {height: 100vh !important; background-size: cover !important;}
+    .navbar-default .navbar-nav > li > a{font-size: 19px;}
+    h1{font-size: 30px;}
+    .navbar-align{     padding-left: 10% !important; }
+    .main-position {height: 100vh;    width: 100%;}
+    .align_text {padding: 5px 50px;}
+    .for-mobile {display:none !important;}
+    #text_adjust h3 {right: 0%;
+        top: 0%;
+        left: 0;}
+    .intro-section {height: 100%;}
+    .gallery-section {height: auto;}
+    .about-section{ height:auto !important;}
+    .see-ours ul{width: 100%;}
+    .see-ours h1 {font-size: 16px;padding-left: 2em;  padding-top: 0em;}
+    .see-ours h1 span img{height: 15px; }
+    .see-ours .displ_flex {display:inline;}
+    .exhib_png , .media_png, .artist_png{height: 210px;}
+    
+    .artist_png {margin-left: -20px;}
+    .see-ours ul li #exhibitors {top: 60px; left: 13em;}
+    .see-ours ul li #media {top: 60px; left: 25em;}
+    .see-ours ul li #artist {top: 60px; left: 35em;}
+    .see-ours ul li h2{font-size: 15px;}
+    .see-ours ul li h2 span img {height: 15px;}
+    .gallery-bg .nav-tabs {padding-left: 34%;}
+    .demo-gallery .bx-wrapper .bx-viewport ul li{ width: 205px !important;}
+    .demo-gallery .bx-wrapper .bx-viewport {padding-left: 25px; height:200px !important;}
+    .juicer-feed {    width:80% !important;}
+    .img__img {    height: 155px !important; padding: 2px;}
+    .img__description{    margin-top: 2em;}
+    .bottom_team {    padding-left: 13%;}
+    .video_section {   width:100%; height: 250px !important;}
+    .team-section { height: auto !important;}
+    .contact-section {height:auto !important;}
+    .contact-section .pddn {padding-bottom: 0px;}
+    .contact_info { padding: 0px ;}
+    .contact-section h3{font-size: 16px;}
+    .map_adjust {    height: 324px !important;}
+    .footer{margin-top: 0em !important;}
+    .footer ul {margin-bottom: 0px;}
+    .pddn_100 {padding-top: 0px;}
+    
+    .navbar-default .navbar-toggle{margin-top: 10px;}
+    .glyphicon-remove {color:#fff; width: 22px;}
+    .social-section {    height: 200% !important;    overflow-y: scroll !important;}
+    ._2gn_ , .fb_iframe_widget_fluid{display: none !important;}
+    .countdownHolder{width: 265px;padding-top: 75px;}
+    #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 205px !important;}
+}
+@media screen and (min-width: 480px) and (max-width: 750px) {
+    .nightowl-logo {height: 209px !important;
+        padding-top: 1em !important;
+        position: relative;}
+    .intro-section .bx-wrapper, .bx-viewport {height: 100vh !important; background-size: cover !important;}
+    .dlf_presents_logo{padding-top: 3em;}
+    .main-position {height: 100vh;    width: 100%;}
+    .align_text {padding: 5px 50px;}
+    .for-mobile {display:none !important;}
+    #text_adjust h3 {left: 2%;
+        top: 3%;
+        right: auto;
+        }
+    .intro-section {height: 100%;}
+    .gallery-section {height: auto;}
+    .about-section{ height:auto !important;}
+    .see-ours ul{width: 100%;}
+    .see-ours h1 {font-size: 16px;padding-left: 2em;  padding-top: 0em;}
+    .see-ours h1 span img{height: 15px; }
+    .see-ours .displ_flex {display:inline;}
+    .exhib_png , .media_png, .artist_png{height: 210px;}
+    
+    .artist_png {margin-left: -20px;}
+    .see-ours ul li #exhibitors {top: 60px; left: 9em;}
+    .see-ours ul li #media {top: 60px; left: 22em;}
+    .see-ours ul li #artist {top: 60px; left: 32em;}
+    .see-ours ul li h2{font-size: 15px;}
+    .see-ours ul li h2 span img {height: 15px;}
+    .gallery-bg .nav-tabs {padding-left: 34%;}
+    .demo-gallery .bx-wrapper .bx-viewport ul li{ width: 205px !important;}
+    .demo-gallery .bx-wrapper .bx-viewport {padding-left: 25px;}
+    .juicer-feed {    width:80% !important;}
+    .img__img {    height: 155px !important; padding: 2px;}
+    .img__description{    margin-top: 2em;}
+    .bottom_team {    padding-left: 13%;}
+    .video_section {   width:100%; height: 250px !important;}
+    .team-section { height: auto !important;}
+    .contact-section {height:auto !important;}
+    .contact-section .pddn {padding-bottom: 0px;}
+    .contact_info { padding: 0px 50px;}
+    .map_adjust {    height: 324px !important;}
+    .footer{margin-top: 0em !important;}
+    .footer ul {margin-bottom: 0px;}
+    .pddn_100 {padding-top: 0px;}
+    .navbar-align {padding-left: 0% !important;}
+    .navbar-default .navbar-toggle{margin-top: 10px;}
+    .glyphicon-remove {color:#fff; width: 22px;}
+    .social-section {    height: 200% !important;    overflow-y: scroll !important;}
+    ._2gn_ , .fb_iframe_widget_fluid{display: none !important;}
+    
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .nightowl-logo {height: 258px !important;
+        padding-top: 1em !important;
+        top: 30px;
+        position: relative;}
+    .intro-section .bx-wrapper, .bx-viewport {height: 100vh !important; background-size: cover !important;}
+    
+    .main-position {height: 100vh;}
+    .align_text {padding: 5px 50px;}
+    .for-desktop {display:none !important;}
+    #text_adjust h3 {right: 0%;
+        top: 12%;
+        left: 0;}
+    .intro-section, .gallery-section {height: auto;}
+    .about-section{ height:auto !important;}
+    .see-ours ul{width: 80%;}
+    .see-ours h1 {font-size: 16px;padding-left: 2em;  padding-top: 0em;}
+    .see-ours h1 span img{height: 15px; }
+    .see-ours .displ_flex {display:inline;}
+    .exhib_png , .media_png, .artist_png{height: 210px;}
+    .media_png, .artist_png {margin-top: -40px;}
+    .artist_png {margin-left: -20px;}
+    .see-ours ul li #exhibitors {top: 40px; left: 8em;}
+    .see-ours ul li #media {top: 216px; left: 9em;}
+    .see-ours ul li #artist {top: 386px; left: 9em;}
+    .see-ours ul li h2{font-size: 18px;}
+    .gallery-bg .nav-tabs {padding-left: 23%;}
+    .demo-gallery .bx-wrapper .bx-viewport ul li{ width: 190px !important;}
+    .demo-gallery .bx-wrapper .bx-viewport {padding-left: 25px;}
+    .juicer-feed {    width:80% !important;}
+    .img__img {    height: 310px !important; padding: 2px; padding-left: 20px; padding-right: 20px;}
+    .flex-container {display: inline-grid;  float: unset;}
+    .video_section {   width:100%; height: 250px !important;}
+    .team-section { height: auto !important;}
+    .bottom_team{padding-left: 0%;}
+    .contact-section {height:auto !important;}
+    .contact_info { padding: 0px 50px;}
+    .map_adjust {    height: 324px !important;}
+    .footer{margin-top: 0em !important;}
+    .pddn_100 {padding-top: 50px;}
+    .navbar-align {padding-left: 0% !important;}
+    .navbar-default .navbar-toggle{margin-top: 10px;}
+    .glyphicon-remove {color:#fff; width: 22px;}
+    .social-section {    height: 200% !important;    overflow-y: scroll !important;}
+    ._2gn_ , .fb_iframe_widget_fluid{display: none !important;}
+    .img__description_layer{ margin: 0px 50px !important;    top: 2px; bottom: 12px;}
+    .countdownHolder{    font: 18px/1.5 'Open Sans Condensed',sans-serif !important;    width: 350px;}
+    .countdownHolder{right: 6%;}
+    .dlf_presents_logo {    padding-top: 12em;}
+    .demo-gallery .bx-viewport{height: 220px !important;}
+    .logo_link{width: 55%;}
+}
+@media screen and (min-width: 370px) and (max-width: 399px) {
+    .nightowl-logo {height: 258px !important;
+        padding-top: 1em !important;
+        
+        position: relative;}
+    .intro-section .bx-wrapper, .bx-viewport {height: 100vh !important; background-size: cover !important;}
+    
+    .main-position {height: 100vh;}
+    .align_text {padding: 5px 50px;}
+    .for-desktop {display:none !important;}
+    #text_adjust h3 {right: 0%;
+        top: 0%;
+        left: 0;}
+    .dlf_presents_logo{padding-top: 12em;}
+    .intro-section, .gallery-section {height: auto;}
+    .about-section{ height:auto;}
+    .see-ours ul{width: 80%;}
+    .see-ours h1 {font-size: 16px;padding-left: 2em;  padding-top: 0em;}
+    .see-ours h1 span img{height: 15px; }
+    .see-ours .displ_flex {display:inline;}
+    .exhib_png , .media_png, .artist_png{height: 210px;}
+    .media_png, .artist_png {margin-top: -40px;}
+    .artist_png {margin-left: -20px;}
+    .see-ours ul li #exhibitors {top: 40px; left: 8em;}
+    .see-ours ul li #media {top: 216px; left: 9em;}
+    .see-ours ul li #artist {top: 386px; left: 9em;}
+    .see-ours ul li h2{font-size: 18px;}
+    .gallery-bg .nav-tabs {padding-left: 23%;}
+    .demo-gallery .bx-wrapper .bx-viewport ul li{ width: 170px !important;}
+    .demo-gallery .bx-wrapper .bx-viewport {padding-left: 25px;}
+    .juicer-feed {    width: 71% !important;}
+    .img__img {    height: 310px !important; padding: 2px; padding-left: 20px; padding-right: 20px;}
+    .flex-container {display: inline-grid;  float: unset;}
+    .video_section {   width:100%; height: 250px !important;}
+    .team-section { height: auto !important;}
+    .bottom_team{padding-left: 0%;}
+    .contact-section {height:auto !important;}
+    .contact_info { padding: 0px 30px 0px 30px;}
+    .map_adjust {    height: 324px !important;}
+    .footer{margin-top: 0em !important;}
+    .pddn_100 {padding-top: 50px;}
+    .navbar-default .navbar-toggle{margin-top: 10px;}
+    .glyphicon-remove {color:#fff; width: 22px;}
+    .social-section {    height: 200% !important;    overflow-y: scroll !important;}
+    ._2gn_, .fb_iframe_widget_fluid {display: none !important;}
+    .img__description_layer{ margin: 0px 30px !important; top: 2px; bottom: 12px;}
+   .countdownHolder{    font: 18px/1.5 'Open Sans Condensed',sans-serif !important;    width: 350px;}
+    .demo-gallery .bx-viewport{    height: 180px !important;}
+    .logo_link{width: 55%;}
+}
+@media screen and (min-width: 320px) and (max-width: 369px) {
+    .nightowl-logo {height: 258px !important;
+        padding-top: 1em !important;
+        
+        position: relative;}
+    .intro-section .bx-wrapper, .bx-viewport {height: 100vh !important; background-size: cover !important;}
+    
+    .main-position {height: 100vh;}
+    .align_text {padding: 5px 25px;}
+    .for-desktop {display:none !important;}
+    #text_adjust h3 {right: 0%;
+        top: 12%;
+        left: 0;}
+    .dlf_presents_logo{padding-top: 12em;}
+    .countdownHolder{top:7%;}
+    .intro-section, .gallery-section {height: 100%;}
+    .about-section{ height:auto !important;}
+    .see-ours ul{width: 80%;}
+    .see-ours h1 {font-size: 16px;padding-left: 2em;  padding-top: 0em;}
+    .see-ours h1 span img{height: 15px; }
+    .see-ours .displ_flex {display:inline;}
+    .exhib_png , .media_png, .artist_png{height: 210px;}
+    .media_png, .artist_png {margin-top: -40px;}
+    .artist_png {margin-left: -20px;}
+    .see-ours ul li #exhibitors {top: 40px; left: 6em;}
+    .see-ours ul li #media {top: 216px; left: 8em;}
+    .see-ours ul li #artist {top: 386px; left: 8em;}
+    .see-ours ul li h2{font-size: 18px;}
+    .gallery-bg .nav-tabs {padding-left: 23%;}
+    .demo-gallery .bx-wrapper .bx-viewport ul li{ width: 150px !important;}
+    .demo-gallery .bx-wrapper .bx-viewport {padding-left: 25px;}
+    .juicer-feed {    width: 71% !important;}
+    .img__img {    height: 265px !important; padding: 2px; padding-left: 20px; padding-right: 20px;}
+    .flex-container {display: inline-grid;  float: unset;}
+    .video_section {   width:100%; height: 250px !important;}
+    .team-section { height: auto !important;}
+    .bottom_team{padding-left: 0%;}
+    .contact-section {height:auto !important;}
+    .contact_info { padding: 0px 30px 0px 30px;}
+    .map_adjust {    height: 324px !important;}
+    .footer{margin-top: 0em !important;}
+    .pddn_100 {padding-top: 50px;}
+    h1 {font-size: 25px;}
+    .navbar-align {padding-left: 0% !important;}
+    .navbar-default .navbar-toggle{margin-top: 10px;}
+    .glyphicon-remove {color:#fff; width: 22px;}
+    .social-section {    height: 200% !important;    overflow-y: scroll !important;}
+    ._2gn_ , .fb_iframe_widget_fluid{display: none !important;}
+    .img__description_layer{ margin: 0px 24px !important; top: 2px; bottom: 12px;}
+    .countdownHolder{    font: 18px/1.5 'Open Sans Condensed',sans-serif !important;    width: 320px;}
+    .demo-gallery .bx-viewport{height: 160px !important;}
+    .img__description{margin-top: 6em;}
+    .logo_link{width: 55%;}
+}
+/*-------------------Navbar-----------------------------*/
+
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    padding: 0 5%;
+    border-bottom: 1px solid transparent;
+    z-index: 3;
+}
+
+header nav { 
+    float: none;
+    
+}
+
+.case-study header .nav-link {
+    color: #FFF;
+}
+
+.case-study header .nav-link:hover {
+    opacity: 0.8;
+}
+
+.case-study .stickyicky .nav-link, .case-study .bottom-header .nav-link {
+    color: #5C6773;
+}
+
+.case-study .stickyicky .nav-link:hover, .case-study .bottom-header .nav-link:hover {
+    color: #273444;
+    opacity: 1;
+}
+
+.stickyicky {
+    height: 60px;
+    z-index: 22;
+}
+
+.stickyicky .nav-link, .prev-next-arrows a {
+    line-height: 60px;
+     text-decoration: none;
+}
+
+.stickyicky .mobile-menu {
+    top: 15px;
+}
+
+.mobile-menu, .mobile-overlay, .prev-next-arrows, .prev-next-arrows span {
+    display: none;
+}
+
+.bottom-header {
+    background-color: rgba(0,0,0,0.5);
+   
+}
+
+
+/* ==========================================================================
+   logo
+   ========================================================================== */
+
+#logo { 
+    font-size: 14px;
+}
+
+#logo, #logo svg {
+    width: 120px;
+}
+
+/* ==========================================================================
+   table navs
+   ========================================================================== */
+
+header, header ul {
+    display: table;
+        padding-left: 36%;
+}
+
+#logo, header li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header li, .content-nav li, .share-bar li {
+    list-style-type: none;
+}
+
+header .nav-link {
+    line-height: 100px;
+    padding: 0 20px 0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+.navbar-nav {height:104vh; background-color: rgba(239, 0, 49, 0.8); margin: 0px !important;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {height:105vh; position: relative; top: -63px;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {max-height:100% !important;width:50%;}
+#logo, header li {    padding: 20px 0px 20px 0px;
+    text-align: center;}
+header li:not(:last-child) {
+        border-bottom: 1px solid #fff;
+    }
+.navbar-align {padding-left: 0% !important;}
+.navbar-default .navbar-nav > li > a {font-size: 20px;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: transparent;}
+.navbar-toggle {background-color: black !important;}
+}
