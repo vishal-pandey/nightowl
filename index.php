@@ -382,7 +382,7 @@
                                   $seasonl = str_replace(" ", "-", $season);
 
                                   // echo '<li class= "'.$active.'"><a data-toggle="tab" href="#'.$seasonl.'">'.$season.'</a></li>';
-                                  echo '<li><a data-toggle="tab" href="#'.$seasonl.'">'.$season.'</a></li>';
+                                  echo '<li><a data-toggle="tab" href="#'.$seasonl.'" class="tesst">'.$season.'</a></li>';
                                 }
                               ?>
                             <!-- <li><a data-toggle="tab" href="#images-1">Season 1</a></li> -->
@@ -406,12 +406,18 @@
                       $sql = "select * from gallery";
                       $result = $conn->query($sql);
                       $i=1;
+                      $j=0;
                       while ($row = $result->fetch_assoc()) {
                         $active = "";
                         if ($i==1) {
                           $active = "in active";
                           $i = 0;
                         }
+                        $k='';
+                        if ($j!=0) {
+                            $k=$j;
+                        }
+                        $j++;
 
                         $season = $row['seasons'];
                         $seasonl = str_replace(" ", "-", $season);
@@ -421,7 +427,7 @@
 
 
                           // echo '<main>';
-                          echo '<div class="demo-wrap"><br><br><div class="demo-gallery"><ul id="lightgallery1" class="list-unstyled row bxslider_44">';
+                          echo '<div class="demo-wrap"><br><br><div class="demo-gallery"><ul id="lightgallery'.$k.'" class="list-unstyled row bxslider_44">';
                            // echo '<div class="row">';
 
                           $dir1 = "./images/gallery/".$season."/";
@@ -476,7 +482,6 @@
                             </div>
 
                         </div>
-
                     </div>
                     <div id="videos-2" class="tab-pane fade in ">
                         <h3>Season 2</h3>
@@ -703,6 +708,11 @@
         $(document).ready(function() {
             $('#lightgallery').lightGallery();
             $('#lightgallery1').lightGallery();
+            // $('#lightgallery2').lightGallery();
+            $(".tesst").click(function(){
+                $('#lightgallery').lightGallery();
+                $('#lightgallery1').lightGallery();
+            });
         });
     </script>
     <!--<script type="text/javascript" src="js/settings.demo.js"></script>
