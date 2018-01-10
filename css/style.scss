@@ -6,7 +6,7 @@ html, body{
    
 }
 section { overflow-x: hidden;}
-
+.gallery-section {overflow-x: none;}
 body { font-family: 'HelveticaRounded-Bold';}
 nav-link .active { color: chocolate;}
 .navbar-default {    border: 0px  !important; font-family: 'HelveticaRounded-Bold';}
@@ -107,6 +107,9 @@ right: 0;
 .bx-wrapper .bx-controls-direction a {z-index: 2 !important;}
 
 .video_section {   width:100%; height: 315px; }
+
+
+
 /*--------------------------/ Gallery---------------------------*/
 
 /*--------------------------Team---------------------------*/
@@ -254,6 +257,9 @@ color:#fff;}
     .demo-gallery .bx-viewport{    height: 275px !important;}
     .team-section{    height: auto;}
     #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 266px !important;}
+    .demo-gallery > ul > li {width: 23%; margin-right: 1rem; }
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 33rem; overflow-y: scroll;}
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
       .nightowl-logo {padding-top:2em !important; height: 400px !important;}
@@ -276,7 +282,9 @@ color:#fff;}
        .about-section, .gallery-section , .team-section, .contact-section{    height: auto !important;}
     .demo-gallery .bx-viewport{    height: 312px !important;}
     #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
-
+    .demo-gallery > ul > li {width: 23%; margin-right: 1rem; }
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 28rem; overflow-y: scroll;}
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1370px) {
@@ -313,9 +321,12 @@ color:#fff;}
     .img__description {    margin-top: 10em !important;    font-size: 20px; }
     .footer {    margin-top: 5em !important;}
     .footer ul li img{ height: 35px !important;}
-    .map_adjust { height:350px !important; }
+    .map_adjust { height: 350px !important; }
     .pddn_100 {padding-top: 35px !important;}
     #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
+    .demo-gallery > ul > li {width: 23%; margin-right: 1rem; }
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 38rem; overflow-y: scroll;}
   }
 @media screen and (min-width: 1370px) and (max-width: 1499px) {
     .countdownHolder {    font: 24px/1.5 'Open Sans Condensed',sans-serif; width: 323px !important;}
@@ -343,12 +354,21 @@ color:#fff;}
     .map_adjust { height:350px !important; }
     .for-mobile {display:none;}
     #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
+    .demo-gallery > ul > li {width: 23%;
+        margin-right: 1rem; }
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 40rem; overflow-y: scroll;}
 }
 @media screen and (min-width: 1500px) and (max-width: 1920px) {
     .img__img{ height: 387px !important;}
     .video_section { height: 400px !important; }
     .for-mobile {display:none;}
     #images-1 .bx-wrapper .bx-viewport ul li, #images-2 .bx-wrapper .bx-viewport ul li{width: 350px !important;}
+    .demo-gallery > ul > li {width: 24%;
+        margin-right: 1rem; }
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 54rem; overflow-y: scroll;}
+    
 }
 @media screen and (min-width: 751px) and (max-width: 768px) {
      .countdownHolder{font: 18px/1.5 'Open Sans Condensed',sans-serif;}
@@ -456,7 +476,9 @@ color:#fff;}
     .glyphicon-remove {color:#fff; width: 22px;}
     .social-section {    height: 200% !important;    overflow-y: scroll !important;}
     ._2gn_ , .fb_iframe_widget_fluid{display: none !important;}
-    
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 24rem; overflow-y: scroll;}
+    .demo-gallery > ul > li{ width: 42%; margin-left: 2rem; margin-right: 0;}
 }
 @media screen and (min-width: 400px) and (max-width: 420px) {
     .nightowl-logo {height: 258px !important;
@@ -509,6 +531,9 @@ color:#fff;}
     .dlf_presents_logo {    padding-top: 12em;}
     .demo-gallery .bx-viewport{height: 220px !important;}
     .logo_link{width: 55%;}
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 42rem; overflow-y: scroll;}
+    .demo-gallery > ul > li{ width: 42%; margin-left: 2rem; margin-right: 0;}
 }
 @media screen and (min-width: 370px) and (max-width: 399px) {
     .nightowl-logo {height: 258px !important;
@@ -559,6 +584,9 @@ color:#fff;}
    .countdownHolder{    font: 18px/1.5 'Open Sans Condensed',sans-serif !important;    width: 350px;}
     .demo-gallery .bx-viewport{    height: 180px !important;}
     .logo_link{width: 55%;}
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 42rem; overflow-y: scroll;}
+    .demo-gallery > ul > li{ width: 42%; margin-left: 2rem; margin-right: 0;}
 }
 @media screen and (min-width: 320px) and (max-width: 369px) {
     .nightowl-logo {height: 258px !important;
@@ -613,6 +641,9 @@ color:#fff;}
     .demo-gallery .bx-viewport{height: 160px !important;}
     .img__description{margin-top: 6em;}
     .logo_link{width: 55%;}
+    .demo-wrap { height: 60rem;}
+    .demo-gallery > ul {height: 42rem; overflow-y: scroll;}
+    .demo-gallery > ul > li{ width: 42%; margin-left: 2rem; margin-right: 0;}
 }
 /*-------------------Navbar-----------------------------*/
 

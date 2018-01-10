@@ -1,0 +1,1 @@
+[05-Jan-2018 09:55:01 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/kush1609/public_html/niteowl/nightowl/index.php on line 326

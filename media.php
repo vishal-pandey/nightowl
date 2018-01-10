@@ -28,7 +28,7 @@
     <div class="row ">
         <div class="col-sm-12 exhibitor-sec">
            
-            <div class="row logo_link "><a href="index.html"><img src="images/night-owl-logo-3.png" class=" align_image"></a></div>
+            <div class="row logo_link "><a href="./index.php"><img src="images/night-owl-logo-3.png" class="center-block align_image"></a></div>
             <h1>MEDIA</h1>
             <!--<a href="index.html"></a><button type="submit" class="btn btn-default center-block back_btn">Back</button></a>-->
             <div class="container ">

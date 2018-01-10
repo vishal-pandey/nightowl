@@ -39,8 +39,12 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
   
 }
-.about-section ,.gallery-section{
+.about-section {
     height: 80%;
+    overflow: hidden;
+    text-align: center;
+}
+.gallery-section {
     overflow: hidden;
     text-align: center;
 }

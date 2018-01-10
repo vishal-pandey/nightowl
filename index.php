@@ -60,7 +60,7 @@
         .demo-gallery > ul > li {
             float: left;
             margin-bottom: 15px;
-            width: 20%;
+           
         }
         
         .demo-gallery > ul > li a {
@@ -427,7 +427,7 @@
 
 
                           // echo '<main>';
-                          echo '<div class="demo-wrap"><br><br><div class="demo-gallery"><ul id="lightgallery'.$k.'" class="list-unstyled row bxslider_44">';
+                          echo '<div class="demo-wrap"><br><br><div class="demo-gallery"><ul id="lightgallery'.$k.'" class="list-unstyled row ">';
                            // echo '<div class="row">';
 
                           $dir1 = "./images/gallery/".$season."/";
