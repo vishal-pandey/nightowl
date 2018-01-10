@@ -10,7 +10,7 @@
 	$conn->query($sql2);
 
 	$sql3 = "insert into about values('About', 'this is the testing content')";
-	// $conn->query($sql3);
+	$conn->query($sql3);
 
 	$sql41 = "drop table media";
 	$conn->query($sql41);
