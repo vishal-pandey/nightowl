@@ -2,8 +2,6 @@
     <h3 align="center">Menu</h3>
     <br>
     <button class="btn btn-default col-sm-12" id="instruction">Instruction</button>
-    <button class="btn btn-default col-sm-12" id="uploads">Uploads</button>
-    <button class="btn btn-default col-sm-12" id="contact">Enquiry</button>
     
 </div>
 <div class="main-content col-sm-10 well">
